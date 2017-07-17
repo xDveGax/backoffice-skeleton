@@ -25,7 +25,7 @@
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
-    "zone.js": "0.8.12" // Don't change this version until this issue be fixed. https://github.com/angular/zone.js/issues/832 Or test will crash.
+    "zone.js": "0.8.12"
   },
   "devDependencies": {
     "@angular/cli": "1.1.3",
