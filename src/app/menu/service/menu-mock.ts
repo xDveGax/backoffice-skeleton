@@ -1,4 +1,4 @@
-import { Menu } from './menu.model';
+import { Menu } from 'app/menu/model/menu.model';
 
 export const MENU_ITEMS: Menu[] = [
   {name: 'Menu item 1', permalink: 'perma1', icon: 'dialpad'},

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Menu } from './menu.model';
-import { MenuService } from './menu.service';
+import { Menu } from './model/menu.model';
+import { MenuService } from './service/menu.service';
 
 @Component({
   selector: 'kbd-menu',

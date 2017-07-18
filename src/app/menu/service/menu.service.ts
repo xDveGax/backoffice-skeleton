@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Menu } from './menu.model';
 import { MENU_ITEMS } from './menu-mock';
+import { Menu } from '../model/menu.model';
 
 @Injectable()
 export class MenuService {

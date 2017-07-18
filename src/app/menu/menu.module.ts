@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from './menu.component';
 import { MdMenuModule, MdIconModule, MdButtonModule } from '@angular/material';
-import { MenuService } from './menu.service';
+import { MenuService } from './service/menu.service';
 
 @NgModule({
   imports: [
