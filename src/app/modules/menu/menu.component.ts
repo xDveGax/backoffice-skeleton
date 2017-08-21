@@ -3,9 +3,9 @@ import { Menu } from './model/menu.model';
 import { MenuService } from './service/menu.service';
 
 @Component({
-  selector: 'kbd-menu',
+  selector: 'menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+  styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
 

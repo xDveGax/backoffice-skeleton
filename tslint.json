@@ -108,15 +108,13 @@
       "check-type"
     ],
     "directive-selector": [
-      true,
+      false,
       "attribute",
-      "kbd",
       "camelCase"
     ],
     "component-selector": [
-      true,
+      false,
       "element",
-      "kbd",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

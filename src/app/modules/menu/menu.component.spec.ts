@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MenuComponent } from './menu.component';
 import { MdButtonModule, MdIconModule, MdMenuModule } from '@angular/material';
-import { MenuService } from 'app/menu/service/menu.service';
+import { MenuService } from './service/menu.service';
 
 describe('MenuComponent', () => {
   let component: MenuComponent;

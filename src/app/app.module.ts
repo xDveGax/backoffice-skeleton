@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MenuModule } from './menu/menu.module';
-import { HttpClientModule } from '@angular/common/http';
+import { AuthModule } from './modules/auth/auth.module';
+import { RouterModule, Routes } from '@angular/router';
+
+export const ROUTES: Routes = [];
 
 @NgModule({
   declarations: [
@@ -11,9 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    MenuModule
+    RouterModule.forRoot(ROUTES),
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
