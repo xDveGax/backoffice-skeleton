@@ -23,7 +23,10 @@ export class AuthFormComponent {
   onSubmit() {
     if (this.form.valid) {
       this.submitted.emit(this.form);
+      return;
     }
+    this.form.controls['password'].markAsTouched(true);
+    this.form.controls['email'].markAsTouched(true);
   }
 
   get passwordInvalid() {
