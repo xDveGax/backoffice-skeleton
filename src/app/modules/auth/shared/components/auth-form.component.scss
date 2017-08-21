@@ -1,3 +1,4 @@
+//If we want our component styles to cascade to all child elements of a component, but not to any other element on the page, we can currently do so using by combining the :host with the ::ng-deep selector.
 :host ::ng-deep {
   .error {
     color: #a94442;
@@ -49,7 +50,10 @@
   box-shadow: 0 3px 4px rgba(0,0,0,.1);
   border-radius: 3px;
   border: 1px solid #c1cedb;
-  width: 400px;
+  width: 70vw;
+  @media (min-width: 700px) {
+    width: 488px;
+  }
   margin: 50px auto;
   padding: 30px;
   &__action {
