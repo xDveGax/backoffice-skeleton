@@ -16,5 +16,6 @@ export class RegisterComponent {
   async registerUser(event: FormGroup) {
     const { email, password } = event.value;
     // redirecto to home page.
+    this.router.navigate(['/dashboard']);
   }
 }

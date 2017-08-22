@@ -17,6 +17,7 @@ export class LoginComponent {
   async loginUser(event: FormGroup) {
     const { email, password } = event.value;
     // Call to service login and redirect to home.
+    this.router.navigate(['/dashboard']);
   }
 
 }
